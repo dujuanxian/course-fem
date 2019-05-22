@@ -1,0 +1,13 @@
+{
+  "name": "course-fem",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx,css,html,json}\""
+  },
+  "devDependencies": {
+    "prettier": "^1.17.1"
+  }
+}
