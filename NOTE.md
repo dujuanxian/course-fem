@@ -16,7 +16,9 @@
 - 函数组件
     
     函数组件必须返回markup
-- class组件
+- Class组件
+
+    每个Class组件必须有render方法，render必须都返回markup
 
 3.Pure React
 ```ecmascript 6
