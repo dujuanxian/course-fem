@@ -32,3 +32,9 @@ ReactDOM.render(React.createElement(App), document.getElementById("root"));
 - render函数必须要快，render代码经常会被调用，属于hot code path
 - render必须是纯函数，不能修改任何的state，因为你并不清楚它什么时候被调用
 - React.createElement创建组件的实例（这里可以是DOM tag，也可以是web component）
+
+4. this
+```ecmascript 6
+React.createElement('h1', { onClick: this.handleTitleClick }, 'Adopt Me!')
+```
+this在JS context中指向的是App的实例
